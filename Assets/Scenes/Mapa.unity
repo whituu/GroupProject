@@ -422,6 +422,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PLayer
       objectReference: {fileID: 0}
+    - target: {fileID: 2654024242697594540, guid: 6ccd616eb889d9c4c80b2f52420e4965, type: 3}
+      propertyPath: mouseSensitivity
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ccd616eb889d9c4c80b2f52420e4965, type: 3}
 --- !u!1 &646620528
@@ -7968,6 +7972,27 @@ MonoBehaviour:
   m_InstancedGameObject: {fileID: 0}
   m_Flags: 3
   m_ColliderType: 1
+--- !u!1 &1366303356 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2654024242697594539, guid: 6ccd616eb889d9c4c80b2f52420e4965, type: 3}
+  m_PrefabInstance: {fileID: 541305672}
+  m_PrefabAsset: {fileID: 0}
+--- !u!58 &1366303357
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1366303356}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.25
 --- !u!213 &1504736080
 Sprite:
   m_ObjectHideFlags: 0
